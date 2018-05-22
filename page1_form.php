@@ -13,7 +13,7 @@ session_start(); // Session starts here.
  <span id="error">
  <!-- Initializing Session for errors -->
  <?php
- if(isset($_SESSION['error'])) {
+ if (isset($_SESSION['error'])) {
  echo $_SESSION['error'];
  unset($_SESSION['error']);
  }
