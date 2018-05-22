@@ -15,7 +15,6 @@ session_start(); // Session starts here.
  <?php
  if(isset($_SESSION['error'])) {
   echo $_SESSION['error'];
- } else {
  unset($_SESSION['error']);
  }
  ?>
