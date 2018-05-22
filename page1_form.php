@@ -14,7 +14,7 @@ session_start(); // Session starts here.
  <!-- Initializing Session for errors -->
  <?php
  if(isset($_SESSION['error'])) {
-  echo $_SESSION['error'];
+ echo $_SESSION['error'];
  unset($_SESSION['error']);
  }
  ?>
